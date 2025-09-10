@@ -7,12 +7,13 @@
 export const Cpp = Subjects.Cpp;
 export const Java = Subjects.Java;
 export const React = Subjects.React;
+export type Teacher = Subjects.Teacher;
 
 export const cpp = new Cpp();
 export const java = new Java();
 export const react = new React();
 
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
   firstName: "John",
   lastName: "Doe",
   experienceTeachingC: 10,
